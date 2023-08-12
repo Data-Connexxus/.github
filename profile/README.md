@@ -58,7 +58,7 @@ perspective and approach.
 
 ## The Synthetic Data Platform Philosophy
 
-Data Synthesis has always intended to be operated under the open/community source model. the Synthetic Data Platform open source
+This project has always intended to be operated under the open/community source model. the Synthetic Data Platform open source
 licensing model is <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apache-2.0</a>.
 Our model is not some "freemium" or offering based model with versions and scaled capabilities. Our approach is
 to provide the assets and have community enhancements and improvements to support the growth of underlying needs for the
@@ -67,14 +67,19 @@ tier, APIs that both enable the platform to be accessed as well as extended and 
 WebUI.
 
 # The Synthetic Data Platform: Getting More Familiar
-the Synthetic Data Platform consists of three core modules - data, apis, and a web interface.
+the Synthetic Data Platform was initially designed as part of a large open source healthcare ecosystem, with a move into its own organization
+we can now better align towards providing more extensive capabilities with multiple repositories. 
 
-| Area | Sub-Module                                                                                                              | 
-|------|-------------------------------------------------------------------------------------------------------------------------|
-| Data | [DataTier](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier/README.md)                            | 
-| APIs | [DataTier APIs](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier-APIs/README.md)                  |
-| User Interface | [DataTier Web User Interfaces](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier-WebUIs/README.mc) |
-
+| Area                 | Sub-Module                                                                                                 | 
+|----------------------|------------------------------------------------------------------------------------------------------------|
+| <b>DataTier<b>       | [DataTier](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier/README.md) | 
+| <b>APIs<b>           | A series of different programming lanuage based APIs                                                       |
+| SpringBoot-APIs      |                                                                                                            |
+| Node APIs            |                                                                                                            |
+| Quarkus APIs         |                                                                                                            |
+| <b>User Interface<b> | User Interfaces                                                                                            |
+| REACTT UI            |                                                                                                            |
+| Vue UI               |                                                                                                            |
 
 *Enjoy and Happy Coding!!!*
 
