@@ -2,8 +2,10 @@
 
 # Re-Introduction
 This is the updated work that was started within Project-Herophilus's Data Synthesis 
-project (https://github.com/Project-Herophilus/DataSynthesis). We have moved it to its own organization 
-to help us give it a long term viable future as a free-standing asset.
+project (https://github.com/Project-Herophilus/the Synthetic Data Platform). We have moved it to its own organization 
+to help us give it a long term viable future as a free-standing asset. There are many more repositories now and we can focus 
+on how to continue the great work done over the last three years by amazing individuals and companies like Red Hat, IBM, 
+Microsoft and others.
 
 # Background
 As we thought about how to help healthcare we continue to focus and believe that <b>data being the asset</b> and that
@@ -22,9 +24,9 @@ professionals to conduct business processes." With these definitions it is easy 
 synthetic data is an involved process that can be achieved by numerous measures and ways. Our way was to create a platform to
 synthesize data (Data Synthesis) for multiple needs based on items like industry standards, coded ontologies,
 vendor data models, custom defined models all in an on-demand manner. With a focus on data and specifically synthetic
-data we wanted our platform to clearly express our focus, the name we settled on was DataSynthesis.
+data we wanted our platform to clearly express our focus, the name we settled on was the Synthetic Data Platform.
 
-<i>The idea for DataSynthesis is in NO WAY new or unique</i>, it purpose and usage is fueled to help reduce and/or remove
+<i>The idea for the Synthetic Data Platform is in NO WAY new or unique</i>, it purpose and usage is fueled to help reduce and/or remove
 the struggle that every organization experiences around their data needs. What we believe makes this plaform unique is our
 perspective and approach.
 
@@ -33,7 +35,7 @@ perspective and approach.
 * As part of the Project Herophilus community the intent is for it to be leveraged to both support and enable other
   capabilities to be developed and leveraged. A complete list of components from Connectivity, Data Real-Time Assets, Data Simulators,
   Data De-Identification and Anonymization components and more can be found <a href="https://github.com/Project-Herophilus" target="_blank">here</a>.
-* Simplicity built for complex data and datasets needs. The DataSynthesis platform from its inception has been designed
+* Simplicity built for complex data and datasets needs. The Synthetic Data Platform  from its inception has been designed
   to generate and/or build upon a concept of data attributes. There are currently 21 different data attributes it can use to
   create data structures.
 * Our focus is on enabling massive amounts of data to be used immediately or very quickly. This we feel helps to
@@ -54,9 +56,9 @@ perspective and approach.
   understand and can embrace new business models quickly. The focus around tooling in these organizations typically is
   to enable them.
 
-## DataSynthesis Philosophy
+## The Synthetic Data Platform Philosophy
 
-Data Synthesis has always intended to be operated under the open/community source model. DataSynthesis open source
+Data Synthesis has always intended to be operated under the open/community source model. the Synthetic Data Platform open source
 licensing model is <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apache-2.0</a>.
 Our model is not some "freemium" or offering based model with versions and scaled capabilities. Our approach is
 to provide the assets and have community enhancements and improvements to support the growth of underlying needs for the
@@ -64,14 +66,14 @@ platform. data access capabilities. The core assets provided include a highly fl
 tier, APIs that both enable the platform to be accessed as well as extended and at some point there will be a
 WebUI.
 
-# DataSynthesis: Getting More Familiar
-DataSynthesis consists of three core modules - data, apis, and a web interface.
+# The Synthetic Data Platform: Getting More Familiar
+the Synthetic Data Platform consists of three core modules - data, apis, and a web interface.
 
 | Area | Sub-Module                                                                                                              | 
 |------|-------------------------------------------------------------------------------------------------------------------------|
-| Data | [DataTier](https://github.com/Project-Herophilus/DataSynthesis/tree/main/DataTier/README.md)                            | 
-| APIs | [DataTier APIs](https://github.com/Project-Herophilus/DataSynthesis/tree/main/DataTier-APIs/README.md)                  |
-| User Interface | [DataTier Web User Interfaces](https://github.com/Project-Herophilus/DataSynthesis/tree/main/DataTier-WebUIs/README.mc) |
+| Data | [DataTier](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier/README.md)                            | 
+| APIs | [DataTier APIs](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier-APIs/README.md)                  |
+| User Interface | [DataTier Web User Interfaces](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier-WebUIs/README.mc) |
 
 
 *Enjoy and Happy Coding!!!*
