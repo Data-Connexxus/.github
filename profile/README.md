@@ -1,4 +1,7 @@
-## Hi there 👋
+## Hello and Welcome to the Synthetic Data Platform Git Hub site 👋
+
+# Introduction
+
 
 <!--
 
