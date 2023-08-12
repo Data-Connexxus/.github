@@ -2,7 +2,7 @@
 
 # Re-Introduction
 This is the updated work that was started within Project-Herophilus's Data Synthesis 
-project (https://github.com/Project-Herophilus/the Synthetic Data Platform). We have moved it to its own organization 
+project (https://github.com/Project-Herophilus/DataSynthesis). We have moved it to its own organization 
 to help us give it a long term viable future as a free-standing asset. There are many more repositories now and we can focus 
 on how to continue the great work done over the last three years by amazing individuals and companies like Red Hat, IBM, 
 Microsoft and others.
