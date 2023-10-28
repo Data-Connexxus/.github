@@ -70,16 +70,28 @@ WebUI.
 the Synthetic Data Platform was initially designed as part of a large open source healthcare ecosystem, with a move into its own organization
 we can now better align towards providing more extensive capabilities with multiple repositories. 
 
+## Data Tier
+
 | Area                 | Sub-Module                                                                                                 | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| <b>DataTier<b>       | [DataTier](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier/README.md) | 
-| <b>APIs<b>           | A series of different programming lanuage based APIs                                                       |
+| DataTier      | [DataTier](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier/README.md) | 
+
+## APIs
+
+| Area                 | Sub-Module                                                                                                 | 
+|----------------------|------------------------------------------------------------------------------------------------------------|
 | SpringBoot-APIs      |                                                                                                            |
 | Node APIs            |                                                                                                            |
 | Quarkus APIs         |                                                                                                            |
-| <b>User Interface<b> | User Interfaces                                                                                            |
+
+## User Interfaces
+
+| Area                 | Sub-Module                                                                                                 | 
+|----------------------|------------------------------------------------------------------------------------------------------------|
 | REACTT UI            |                                                                                                            |
 | Vue UI               |                                                                                                            |
+
+
 
 *Enjoy and Happy Coding!!!*
 
