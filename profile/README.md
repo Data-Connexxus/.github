@@ -67,21 +67,21 @@ tier, APIs that both enable the platform to be accessed as well as extended and 
 WebUI.
 
 # The Synthetic Data Platform: Getting More Familiar
-the Synthetic Data Platform was initially designed as part of a large open source healthcare ecosystem, with a move into its own organization
+The Synthetic Data Platform was initially designed as part of a large open-source healthcare ecosystem, with a move into its organization
 we can now better align towards providing more extensive capabilities with multiple repositories. 
 
 ## Data Tier
 
 | Area                 | Sub-Module                                                                                                 | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| DataTier DDLs      | [DataTier Data Definitions]([https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier/README.md)](https://github.com/SyntheticDataPlatform/DataTier-DDLs/blob/main/README.md) | 
-| DataTier DataLoaders|[Data Tier Data Loaders]()|
+| DataTier DDLs      | ((https://github.com/SyntheticDataPlatform/DataTier-DDLs/blob/main/README.md) | 
+| DataTier DataLoaders|(https://github.com/SyntheticDataPlatform/DataTier-DataLoaders/blob/main/README.md)|
 
 ## APIs
 
 | Area                 | Sub-Module                                                                                                 | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| SpringBoot-APIs      |                                                                                                            |
+| SpringBoot-APIs      |(https://github.com/SyntheticDataPlatform/APIs-SpringBoot)                                                                                                            |
 | Node APIs            |                                                                                                            |
 | Quarkus APIs         |                                                                                                            |
 
