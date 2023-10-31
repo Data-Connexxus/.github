@@ -72,25 +72,25 @@ we can now better align towards providing more extensive capabilities with multi
 
 ## Data Tier
 
-| Area                 | Sub-Module                                                                                                 | 
+| Area                 | Repository Location                                                                                            | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| DataTier DDLs      | ((https://github.com/SyntheticDataPlatform/DataTier-DDLs/blob/main/README.md) | 
-| DataTier DataLoaders|(https://github.com/SyntheticDataPlatform/DataTier-DataLoaders/blob/main/README.md)|
+| DataTier DDLs      | https://github.com/SyntheticDataPlatform/DataTier-DDLs/blob/main/README.md | 
+| DataTier DataLoaders|https://github.com/SyntheticDataPlatform/DataTier-DataLoaders/blob/main/README.md|
 
 ## APIs
 
-| Area                 | Sub-Module                                                                                                 | 
+| Area                 | Repository Location                                                                                            | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| SpringBoot-APIs      |(https://github.com/SyntheticDataPlatform/APIs-SpringBoot)                                                                                                            |
-| Node APIs            |                                                                                                            |
-| Quarkus APIs         |                                                                                                            |
+| SpringBoot-APIs      |https://github.com/SyntheticDataPlatform/APIs-SpringBoot  |
+| Node APIs            |https://github.com/SyntheticDataPlatform/APIs-Node    |
+| Quarkus APIs         |https://github.com/SyntheticDataPlatform/APIs-Quarkus |
 
 ## User Interfaces
 
-| Area                 | Sub-Module                                                                                                 | 
+| Area                 | Repository Location                                                                                           | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| REACTT UI            |                                                                                                            |
-| Vue UI               |                                                                                                            |
+| REACTT UI            | Future - https://github.com/SyntheticDataPlatform/UIs-Web-REACT|
+| Vue UI               |https://github.com/SyntheticDataPlatform/UIs-Web-Vue|
 
 
 
