@@ -74,7 +74,8 @@ we can now better align towards providing more extensive capabilities with multi
 
 | Area                 | Sub-Module                                                                                                 | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| DataTier      | [DataTier](https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier/README.md) | 
+| DataTier DDLs      | [DataTier Data Definitions]([https://github.com/Project-Herophilus/the Synthetic Data Platform/tree/main/DataTier/README.md)](https://github.com/SyntheticDataPlatform/DataTier-DDLs/blob/main/README.md) | 
+| DataTier DataLoaders|[Data Tier Data Loaders]()|
 
 ## APIs
 
