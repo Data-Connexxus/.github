@@ -70,6 +70,7 @@ The Synthetic Data Platform was initially designed as part of a large open-sourc
 we can now better align towards providing more extensive capabilities with multiple repositories. 
 
 ## Data Tier
+Specific artifacts related to the platform's data tier
 
 | Area                 | Repository Location                                                                                            | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
@@ -77,6 +78,8 @@ we can now better align towards providing more extensive capabilities with multi
 | DataTier DataLoaders|https://github.com/SyntheticDataPlatform/DataTier-DataLoaders/blob/main/README.md|
 
 ## APIs
+Specific artifacts related to the platform's provided APIs. It should be noted that most of the APIs need refactoring as the data model
+itself was completely refactored to help simplify it and provide greater extensibility for the future.
 
 | Area                 | Repository Location                                                                                            | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
@@ -85,6 +88,7 @@ we can now better align towards providing more extensive capabilities with multi
 | Quarkus APIs         |https://github.com/SyntheticDataPlatform/APIs-Quarkus |
 
 ## User Interfaces
+While there are projects listed, these are aspirational, as we need to refactor the APIs and reimagine the capabilities we want overall.
 
 | Area                 | Repository Location                                                                                           | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
