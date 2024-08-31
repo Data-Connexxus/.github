@@ -1,4 +1,4 @@
-# Hello and Welcome to the Synthetic Data Platform Git Hub site 👋
+# Welcome to the Synthetic Data Platform Git Hub site 👋
 This is the updated work that was started within Project-Herophilus's Data Synthesis 
 project (https://github.com/Project-Herophilus/DataSynthesis). We have moved this work into its own organization 
 to help us give it a long term viable future as a free-standing asset. There are many more repositories now and we can focus 
@@ -51,6 +51,39 @@ approach.
   even further users can configure data structures from their data attributes (9 are pre-configured). 
 * If you load the provided data scripts you will have well over 100B data attributes to start using within an hour of loading
   platform.
+
+# Platform Core
+Like any platform its power and capabilities start with its extensibility provided through the data model and then are seen
+in the data the platform can leverage. It has been a journey for us to get to this point. We started with a very traditional RDBMS 
+based focus and mindset and evolved towards a more flexible and less constrained
+RDBMS based data model. In late 2022 we started to remove the very tight RDBMS mindset as it constrained our capabilities.
+We also decided as we did this to focus on two RDBMS technologies (PostgreSQL and SQL Server), one EDW
+(SnowFlake) technology and one computational platform (Spark/DataBricks). This decision 
+around our data models capabilities we knew would have negative technology impacts as it would also break all the APIs 
+we had been developing but we made the decision to revamp the data tier as our primaty focus as most of the community
+that downloaded it was focused on just querying the data tier for random data.
+
+Now, we have a highly functional data model that is more computational than relational, although it does have a large contigent of
+reference data to help the platform tag data according to business or industry needs and usages. What drives the core
+design of the data model now is not primary-foreign key data relationships but the platforms key subsystems and how
+the data tier supports. The platform currently has five core areas:
+- datamodel: This deals with the datamodel, we have all our data model documentation and details in these tables.
+- datatier: Anything the platform provides is within this area.
+- platform: All the settings, capabilities and extensibility that the platform can address are maintained within this area.
+- refdata: All the ways the platform can tag data exists within this area.
+- terms: Any terminologies the platform might need to use depending upon industry or general needs are within this area.
+
+## Technology
+With such a focus on the data tier and so many wonderful developers that have leveraged this work deciding on a specific technology
+did not take on the correct level of importance. Additionally, with all the chenges we continued to do as we grew into the
+right data tier we always seemed to have more broken development artifacts than functional. As we retooled and revamped
+the data tier it was clear we needed to have a focus on what technology to use to provide a variety of capabilities to users
+that wanted any form of a development experience with the platform. In late 2023 we settled on Python. While our work with the other technologies has been amazing, Python gives us the best path forward with an amazing tehnology
+stack that can be used for any need while also being an amazing technology for data engineering and analysis.
+
+# How Does SDP - Synthetic Data Platform Work
+With all this background and historical reference to our journey lets explain the power, extensibility and simplicity
+of the platform.
 
 # The Synthetic Data Platform: Repository Layout
 As we moved to a new GitHub organization we also wanted to rethink or repository needs versus maintaining everything in one 
