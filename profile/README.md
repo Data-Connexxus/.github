@@ -1,14 +1,15 @@
 # Hello and Welcome to the Synthetic Data Platform Git Hub site 👋
-
 This is the updated work that was started within Project-Herophilus's Data Synthesis 
-project (https://github.com/Project-Herophilus/DataSynthesis). We have moved it to its own organization 
+project (https://github.com/Project-Herophilus/DataSynthesis). We have moved this work into its own organization 
 to help us give it a long term viable future as a free-standing asset. There are many more repositories now and we can focus 
 on how to continue the great work done over the last three years by amazing individuals and companies like Red Hat, IBM, 
 Microsoft and others.
 
 # Background
-As we thought about how to help healthcare we continue to focus and believe that <b>data being the asset</b> and that
-must be core as part of our mindset. A key part we want to ensure is a focus on a wide variety of data enablement
+As we thought about how to continue to help the community of developers and data resources we 
+believed that having this work be unbounded by a specific industry or underneath a specific other GitHub organization was the 
+bestlong term decision. We are continuing to focus and believe that <b>data being the asset</b> and that
+must be core as part of everyone's mindset. A key part we want to ensure is a focus on a wide variety of data enablement
 capabilities. Our logic is simple, for years companies have focused on most aspects of development, from the tooling to developing
 the next generation of solutions to support their business needs and provide value. However, building great software
 to help today's modern needs require data, in many cases, massive amounts of data. It is a HUGE business and technical
@@ -27,47 +28,33 @@ data we wanted our platform to clearly express our focus, the name we settled on
 
 <i>The idea for the Synthetic Data Platform is in NO WAY new or unique</i>, it purpose and usage is fueled to help reduce and/or remove
 the struggle that every organization experiences around their data needs. What we believe makes this plaform unique is our
-perspective and approach.
+approach.
 
-* While there are numerous offerings out their across the open source and paid offerings we wanted to build something
-  that could not only be used to support data integration needs but also support application development and integration needs as well.
-* As part of the Project Herophilus community the intent is for it to be leveraged to both support and enable other
-  capabilities to be developed and leveraged. A complete list of components from Connectivity, Data Real-Time Assets, Data Simulators,
-  Data De-Identification and Anonymization components and more can be found <a href="https://github.com/Project-Herophilus" target="_blank">here</a>.
-* Simplicity built for complex data and datasets needs. The Synthetic Data Platform  from its inception has been designed
-  to generate and/or build upon a concept of data attributes. There are currently 21 different data attributes it can use to
-  create data structures.
-* Our focus is on enabling massive amounts of data to be used immediately or very quickly. This we feel helps to
-  focus on reducing data breached and information exposure. Why should organizations risk <a href="https://www.breachlevelindex.com/" target="_blank">data breaches</a> or the
+* While there are numerous offerings available, from libraries to technology platforms that range from open source to freemium 
+  (some free and some paid within technologies). Our goal and intent is to be a "powered by" technology platform that can be molded 
+  like clay for to benefit groups from testing to data to integration to applicaton development.
+* This project has always intended to be operated under the open/community source model. the Synthetic Data Platform open source
+  licensing model is <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apache-2.0</a>.
+  Our model is not some "freemium" or offering based model with versions and scaled capabilities.
+* The Synthethic Data Platform is designed around a very flexible computational data model that can Our initial first years focus was on 
+  enabling a massive amounts of extensible data to be used very quickly for a large
+  amount of needs. Why should organizations risk <a href="https://www.breachlevelindex.com/" target="_blank">data breaches</a> or the
   potential leakage of <a href="https://en.wikipedia.org/wiki/Protected_health_information" target="_blank">PHI (in healthcare)</a>
-  or <a href="https://en.wikipedia.org/wiki/Personal_data" target="_blank">PII (In any other industry)</a>? In today's
-  technology world we wanted to enable a new and different way to innovate within a data-driven organization, an extensible
-* Work with implementations industry based data. Our focus is also on enriching the platform with codes and codesets into data thats generated to ensure it matches
-  existing data systems.
-* Generating industry standargs. For Healthcare specifically this is HL7, FHIR, EDI and so forth. We are actively working
-  on implementing FHIR and improving HL7.
-* Helping to create and grow "Data Driven Organization". To be a data-driven organization requires an
-  overarching information culture driven by data. An information culture is not only a deep knowledge of their data but
-  a major understanding how it relates to any specific testing needed or required. broad access and data literacy along with
-  appropriate data-driven decision-making governance and guidance processes. While it sounds complicated it is really
-  about providing businesses a means for data collection, cleansing, hosting and maintenance data while mitigating the
-  risk of a data breach thru comprehensive testing processes and practices. Data-driven organization can innovate continuously because they
-  understand and can embrace new business models quickly. The focus around tooling in these organizations typically is
-  to enable them.
+  or <a href="https://en.wikipedia.org/wiki/Personal_data" target="_blank">PII (In any other industry)</a>?
+* We focused on delivering some core basic RDBMS and EDW level support. The data model and loaders are present for
+  PostgresQL, SQL Server, SnowFlake, and DataBricks/Apache Spark. Our most actively maintained platforms are PostgresQL and SQL Server.
+* While we tried to build APIs we had a complete lack of technology focus. As we entered mid 2023 we decided to focus on Python as 
+  the core technology that we would leverage going forward. Its powerful data capabilities make it the right decision.
+* The Synthetic Data Platform is built upon a simple concept of associated or tagged data, the data is associated/tagged with 
+  organizations and applications. The platform uses the concept of data attributes (21 different data attributes as part of the 
+  base platform) that can be extended based on implementation and specific needs. To enable the platform 
+  even further users can configure data structures from their data attributes (9 are pre-configured). 
+* If you load the provided data scripts you will have well over 100B data attributes to start using within an hour of loading
+  platform.
 
-## The Synthetic Data Platform Philosophy
-
-This project has always intended to be operated under the open/community source model. the Synthetic Data Platform open source
-licensing model is <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apache-2.0</a>.
-Our model is not some "freemium" or offering based model with versions and scaled capabilities. Our approach is
-to provide the assets and have community enhancements and improvements to support the growth of underlying needs for the
-platform. data access capabilities. The core assets provided include a highly flexible and extensible data
-tier, APIs that both enable the platform to be accessed as well as extended and at some point there will be a
-WebUI.
-
-# The Synthetic Data Platform: Getting More Familiar
-The Synthetic Data Platform was initially designed as part of a large open-source healthcare ecosystem, with a move into its organization
-we can now better align towards providing more extensive capabilities with multiple repositories. 
+# The Synthetic Data Platform: Repository Layout
+As we moved to a new GitHub organization we also wanted to rethink or repository needs versus maintaining everything in one 
+single repository. 
 
 ## Data Tier
 Specific artifacts related to the platform's data tier
@@ -77,7 +64,18 @@ Specific artifacts related to the platform's data tier
 | DataTier DDLs      | https://github.com/SyntheticDataPlatform/DataTier-DDLs/blob/main/README.md | 
 | DataTier DataLoaders|https://github.com/SyntheticDataPlatform/DataTier-DataLoaders/blob/main/README.md|
 
-## APIs
+## Development Assets
+Specific artifacts related to the platform's development assets provided
+
+| Area   | Repository Location                                                                                        | 
+|--------|--------------------------------------------------------------------------------------------------------|
+| Python | https://github.com/SyntheticDataPlatform/Python/blob/main/README.md | 
+
+# The Synthetic Data Platform Legacy Assets: Repository Layout
+The following code is legacy and not being maintained. The goal is that in late 2024 or early 2025 these repositories will
+be removed as any functionlaity is ported into Python.
+
+## APIs - Legacy
 Specific artifacts related to the platform's provided APIs. It should be noted that most of the APIs need refactoring as the data model
 itself was completely refactored to help simplify it and provide greater extensibility for the future.
 
@@ -87,7 +85,7 @@ itself was completely refactored to help simplify it and provide greater extensi
 | Node APIs            |https://github.com/SyntheticDataPlatform/APIs-Node    |
 | Quarkus APIs         |https://github.com/SyntheticDataPlatform/APIs-Quarkus |
 
-## User Interfaces
+## User Interfaces - Legacy
 While there are projects listed, these are aspirational, as we need to refactor the APIs and reimagine the capabilities we want overall.
 
 | Area                 | Repository Location                                                                                           | 
