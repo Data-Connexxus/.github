@@ -85,6 +85,7 @@ stack that can be used for any need while also being an amazing data engineering
 # How Does SDP - Synthetic Data Platform Work
 Let's transition from the history of what we have been building to explain the power, extensibility, and simplicity
 of the platform.
+<a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">Platform Subsystems</a>
 
 ## - Reference Data - The Place To Start
 Reference data is intended to be used to provide the users and the platform extensibility while working
@@ -121,6 +122,14 @@ The core configurable and tunable platform components.
 | datageneration         | This is where the platform can be configured to generate or build data as needed.                      |
 | datastructures         | This is what we want to know the data structure as, its name                                           |
 | datastructures_details | This is the configurable structure which includes the dataattributes being used and supporting details |
+
+## Terms
+The platforms ability to manage some level of reference data from applications run within organizations.
+
+| Table          | Purpose                      | 
+|----------------|------------------------------|
+| termstocodeset | Core data that is referenced |
+
 
 # The Synthetic Data Platform: Repository Layout
 As we moved to a new GitHub organization, we also wanted to rethink our repository needs versus maintaining everything in one 
