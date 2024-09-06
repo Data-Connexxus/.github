@@ -82,97 +82,14 @@ who wanted any form of a development experience with the platform. In late 2023,
 other technologies has been excellent, Python gives us the best path forward with an amazing technology
 stack that can be used for any need while also being an amazing data engineering and analysis technology.
 
-# How Does SDP - Synthetic Data Platform Work
-Let's transition from the history of what we have been building to explain the power, extensibility, and simplicity
-of the platform.
-<a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">Platform Subsystems</a>
+# Key Content
+The following section is intended to provide a simple way to find key areas of content about the Synthetic Data Platform.
 
-## - Reference Data - The Place To Start
-Reference data is intended to be used to provide the users and the platform extensibility while working
-to keep potentially complex actions data driven.
-
-| Table             | Purpose                                                                                                                                                                                   | 
-|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Status            | Platform uses status as a core measure of active and accurate records. The platform defaults all data to an active status and users can simply make records any other status if they wish | 
-| Vendors           | Companies that have systems (applications) where data is being used in some form                                                                                                          |
-| IndustryStds      | Intended to be where standards bodies data is relevant to the platform                                                                                                                    |
-| Sensitivity Flags | Enables the platform to categorize information types                                                                                                                                      |
-| Codesets          | Are intended to align to either custom or industry specific supporting data needs                                                                                                         |
-| Industries        | Is about thinking ahead and as we add functionality or capabilities specific industries might benefit from these specifically                                                             |
-| Applications      | Within the platform it is intended to define ANY asset that it interacts with                                                                                                             |
-| Legal Entities    | Intended to help define complex organizations relationships. Specifically it is intended to be the incorporated entity that organization(s) would be a part of                            |
-| Organizations     | Companies that have data represented in the platform                                                                                                                                      |
-
-## Datamodel
-To help try and keep the platform's core data model understandable we decided long ago to document it
-within the existing platforms datamodel.
-
-| Table      | Purpose                                                               | 
-|------------|-----------------------------------------------------------------------|
-| Domain     | Main key areas of the platform                                        
-| Datatables | All the tables within the platform                                    |
-| APIs       | This will be renamed to assets to support wider information and needs |
-
-## Platform
-The core configurable and tunable platform components.
-
-| Table                  | Purpose                                                                                                | 
-|------------------------|--------------------------------------------------------------------------------------------------------|
-| dataattributes         | The core items that the platform uses and can grow and extend based on implementation needs.           |
-| datageneration         | This is where the platform can be configured to generate or build data as needed.                      |
-| datastructures         | This is what we want to know the data structure as, its name                                           |
-| datastructures_details | This is the configurable structure which includes the dataattributes being used and supporting details |
-
-## Terms
-The platforms ability to manage some level of reference data from applications run within organizations.
-
-| Table          | Purpose                      | 
-|----------------|------------------------------|
-| termstocodeset | Core data that is referenced |
-
-
-# The Synthetic Data Platform: Repository Layout
-As we moved to a new GitHub organization, we also wanted to rethink our repository needs versus maintaining everything in one 
-single repository. 
-
-## Data Tier
-Specific artifacts related to the platform's data tier
-
-| Area                 | Repository Location                                                                                            | 
-|----------------------|------------------------------------------------------------------------------------------------------------|
-| DataTier DDLs      | https://github.com/SyntheticDataPlatform/DataTier-DDLs/blob/main/README.md | 
-| DataTier DataLoaders|https://github.com/SyntheticDataPlatform/DataTier-DataLoaders/blob/main/README.md|
-
-## Development Assets
-Specific artifacts related to the platform's development assets provided
-
-| Area   | Repository Location                                                                                        | 
-|--------|--------------------------------------------------------------------------------------------------------|
-| Python | https://github.com/SyntheticDataPlatform/Python/blob/main/README.md | 
-
-# The Synthetic Data Platform Legacy Assets: Repository Layout
-The following code is legacy and not being maintained. The goal is that in late 2024 or early 2025 these repositories will
-be removed as any functionlaity is ported into Python.
-
-## APIs - Legacy
-Specific artifacts related to the platform's provided APIs. It should be noted that most of the APIs need refactoring as the data model
-itself was completely refactored to help simplify it and provide greater extensibility for the future.
-
-| Area                 | Repository Location                                                                                            | 
-|----------------------|------------------------------------------------------------------------------------------------------------|
-| SpringBoot-APIs      |https://github.com/SyntheticDataPlatform/APIs-SpringBoot  |
-| Node APIs            |https://github.com/SyntheticDataPlatform/APIs-Node    |
-| Quarkus APIs         |https://github.com/SyntheticDataPlatform/APIs-Quarkus |
-
-## User Interfaces - Legacy
-While there are projects listed, these are aspirational, as we need to refactor the APIs and reimagine the capabilities we want overall.
-
-| Area                 | Repository Location                                                                                           | 
-|----------------------|------------------------------------------------------------------------------------------------------------|
-| REACTT UI            | Future - https://github.com/SyntheticDataPlatform/UIs-Web-REACT|
-| Vue UI               |https://github.com/SyntheticDataPlatform/UIs-Web-Vue|
-
-
+| Area                                                                                                                                                                  | 
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a>        |
+| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">The Synthetic Data Platform: Repository Layout</a> |
+| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">The Synthetic Data Platform: How It Works</a>      |
 
 *Enjoy and Happy Coding!!!*
 
