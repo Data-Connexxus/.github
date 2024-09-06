@@ -85,11 +85,11 @@ stack that can be used for any need while also being an amazing data engineering
 # Key Content
 The following section is intended to provide a simple way to find key areas of content about the Synthetic Data Platform.
 
-| Area                                                                                                                                                                  | 
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a>        |
-| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">The Synthetic Data Platform: Repository Layout</a> |
-| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">The Synthetic Data Platform: How It Works</a>      |
+| Area                                                                                                                                                                | 
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a>      |
+| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/RepositoryLayout.md" target="_blank">The Synthetic Data Platform: Repository Layout</a> |
+| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/HowItWorks.md" target="_blank">The Synthetic Data Platform: How It Works</a>            |
 
 *Enjoy and Happy Coding!!!*
 
