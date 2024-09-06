@@ -52,35 +52,54 @@ approach.
 * If you load the provided data scripts, you will have well over 100B data attributes to start using within an hour of loading
   platform.
 
-# Platform Core
-Like any platform, its power and capabilities start with its extensibility provided through the data model, which is seen
-in the data the platform can leverage. It has been a journey for us to get to this point. We started with a very traditional RDBMS-based 
-focus and mindset and evolved towards a more flexible and less constrained
-RDBMS-based data model. In late 2022, we removed the very tight RDBMS mindset as it constrained our capabilities.
-We also decided as we did this to focus on two RDBMS technologies (PostgreSQL and SQL Server), one EDW
-(SnowFlake) technology and one computational platform (Spark/DataBricks). We knew that this decision
-around our data model capabilities would have negative technology impacts as it would also break all the APIs 
-we had been developing. Still, we decided to revamp the data tier as our primary focus as most of the community
-that downloaded it was focused on just querying the data tier for random data.
+# Platform 
+For simplicity sake the platform we break down into two core areas: data model and technology.
 
-Now, we have a highly functional data model that is more computational than relational. However, it does have a large contingent of
-reference data to help the platform tag data according to business or industry needs and usages. What drives the core
-design of the data model now is not primary-foreign key data relationships but the platform's key subsystems and how
-the data tier supports them. The platform currently has five core areas:
-- data model deals with the data model; we have all our data model documentation and details in these tables.
+## Data Model
+The data model is what provides platforms powerful capabilities that start with its extensibility 
+provided through the data it provides. The Synthetic Data Platform is no different,  as almost all of 
+our core usage has been driven from direct accessing of the data contained with the 
+platforms data model. Because of our heavy data usage our focus for years has been on the data model.
+With this focus we have substantially evolved our data tier mindset. 
+
+We started with a very traditional RDBMS-based focus and mindset and evolved towards a 
+more flexible and less constrained RDBMS-based data model. In late 2023, we removed the 
+very tight RDBMS mindset as it constrained our capabilities. We also 
+decided to focus on a limited core set of data technologies. Going forward we only support 
+two RDBMS technologies (PostgreSQL and SQL Server), one EDW (SnowFlake) technology 
+and one computational platform (Spark/DataBricks). 
+
+Now, we have a highly functional and very performant data model that is more computational 
+than relational that contains billions of attributes in a very compact amount of storage, rough 
+650 megabytes (depending upon the specific technology used). While the focus of the data tier 
+has been moving to a computational model there will remain a large amount of reference data 
+to help the platform tag data according to specific usage that can business or industry 
+needs and usages. What drives the core design of the data model now is not primary-foreign 
+key data relationships but the platform's key subsystems and how the data tier supports them. 
+
+The data tier while supporting a substantial amout of business use cases and needs is very simple.
+All the table names follow a specific notation <core area>_<capability>. The platform currently 
+has five core areas:
+- data model deals with the data model; we have all our data model documentation and details 
+in these tables.
 - datatier: Anything the platform provides is within this area.
-- platform: All the settings, capabilities, and extensibility the platform can address are maintained within this area.
+- platform: All the settings, capabilities, and extensibility the platform can address are maintained 
+within this area.
 - refdata: The platform can tag data in all ways exists within this area.
-- terms: Any terminologies the platform might need to use depending upon the industry or general needs within this area.
+- terms: Any terminologies the platform might need to use depending upon the industry or 
+general needs within this area.
 
 ## Technology
-With such a focus on the data tier and so many incredible developers that have leveraged this work, deciding on a specific technology
-did not take on the correct level of importance. Additionally, with all the changes we continued to do as we grew into the
-right data tier we always seemed to have more broken development artifacts than functional. As we retooled and revamped
-the data tier, it was clear we needed to focus on what technology to use to provide a variety of capabilities to users
-who wanted any form of a development experience with the platform. In late 2023, we settled on Python. While our work with the 
-other technologies has been excellent, Python gives us the best path forward with an amazing technology
-stack that can be used for any need while also being an amazing data engineering and analysis technology.
+With such a focus on the data tier we really never had adequately focused on technology to 
+support the data tier. This was driven by most of the contributors to our initial platform were 
+all data folks. So we did not do the technology layer around the data tier any justice. Whether it
+was using several technologies like SpringBoot, Node, or Quarkus we were not committed to 
+technology powering our data model and its future. As we retooled and revamped the data tier, 
+it was clear we needed to focus on a technology to use to provide a variety of capabilities for 
+users who wanted any form of a development experience with the platform. In late 2023, we 
+settled on Python. While our work with the other technologies has been excellent, Python 
+gives us the best path forward to have a coomplete and amazing technology stack that can 
+be used for any need while also being an amazing data engineering, web, and analysis technology.
 
 # Key Content
 The following section is intended to provide a simple way to find key areas of content about the Synthetic Data Platform.
