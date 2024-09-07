@@ -5,8 +5,8 @@ To leverage the platform, the following core steps should be completed:
 - The DDL for the supported data technology that is needed is implemented
 - The data technologies data structure is seeded with data for the Synthetic Data Platform
 
-# Core Platform Activities
-Overall the platform design is focused on a series of automatic methods that provide very 
+# Core Platform Activities - Data Powered
+Overall, the platform design is focused on a series of automatic methods that provide very 
 specific capabilities that can be invoked in a variety of ways.
 
 ## Supporting Activities
@@ -55,3 +55,11 @@ The following data structures are implemented with the core platform.
 | Structure            | Purpose | 
 |----------------------|---------|
 | |         |
+
+# Core Platform Activities - Configuring/Managing the Platform
+Understanding or awareness of key aspects of the data model is critical as they lay the groundwork for how you would use the platform.
+
+## Generating Data
+
+## Anonymizing Data
+
