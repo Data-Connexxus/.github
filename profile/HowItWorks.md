@@ -52,9 +52,13 @@ has been no use cases for their usage.
 ### Data Structures
 The following data structures are implemented with the core platform.
 
-| Structure            | Purpose | 
-|----------------------|---------|
-| |         |
+| Structure           | Purpose                                                  | 
+|---------------------|----------------------------------------------------------|
+| Person Demographics | Includes attributes: name (first and last), address, ssn |
+| Bank Account        | Bank Routing and Bank Account Number                     |
+| US Phone Number     | Area Code and Phone Number                               |
+| Complete Name       | First and Last Name                                      |
+| US Address          | Address which includes city. state, zip                  |
 
 # Core Platform Activities - Configuring/Managing the Platform
 Understanding or awareness of key aspects of the data model is critical as they lay the groundwork for how you would use the platform.
