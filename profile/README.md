@@ -80,14 +80,11 @@ key data relationships but the platform's key subsystems and how the data tier s
 The data tier while supporting a substantial amout of business use cases and needs is very simple.
 All the table names follow a specific notation <core area>_<capability>. The platform currently 
 has five core areas:
-- data model deals with the data model; we have all our data model documentation and details 
-in these tables.
-- datatier: Anything the platform provides is within this area.
-- platform: All the settings, capabilities, and extensibility the platform can address are maintained 
-within this area.
-- refdata: The platform can tag data in all ways exists within this area.
-- terms: Any terminologies the platform might need to use depending upon the industry or 
-general needs within this area.
+- datamodel_<capability>: deals with the data model; we have all our data model documentation and details in these tables.
+- datatier_<capability>: Anything the platform provides is within this area.
+- platform_<capability>: All the settings, capabilities, and extensibility the platform can address are maintained within this area.
+- refdata_<capability>: The platform can tag data in all ways exists within this area.
+- terms_<capability>: Any terminologies the platform might need to use depending upon the industry or general needs within this area.
 
 ## Technology
 With such a focus on the data tier we really never had adequately focused on technology to 
