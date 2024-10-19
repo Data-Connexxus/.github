@@ -1,7 +1,7 @@
 <a href="./README.md" target="_blank">Main Page</a>
 
 # Deidentifying Data
-Deideitifying data, sometimes called masking,  is defined by Immuta as: "Data de-identification is a 
+Deidentifying data, sometimes called masking,  is defined by Immuta as: "Data de-identification is a 
 form of dynamic data masking that refers to breaking the link between data and the individual 
 with whom the data is initially associated. Essentially, this requires removing or transforming 
 personal identifiers. Once personal identifiers are removed or transformed using the data 
