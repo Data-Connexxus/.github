@@ -1,3 +1,4 @@
+# SDP: Synthetic Data Platform
 Synthetic data is defined as: "any production data applicable to a given situation that is not obtained by direct
 measurement" according to the McGraw-Hill Dictionary of Scientific and Technical Terms, where Craig S. Mullins,
 an expert in data management, defines production data as "information that is persistently stored and used by
@@ -11,7 +12,8 @@ data, we wanted our platform to express our focus clearly, so the name we settle
 the struggle that every organization experiences around their data needs. What we believe makes this platform unique is our
 approach.
 
-* While there are numerous offerings available, from libraries to technology platforms that range from open source to freemium 
+* It is a growing area of provided offerings. Most cloud providers and cloud centric data companies have offerings in this space now. 
+In addition to this there are numerous offerings available, from libraries to technology platforms that range from open source to freemium 
   (Some are free, and some are paid within technologies). Our goal and intent is to be a "powered by" technology platform that can be molded 
   like clay, for benefit groups from testing to data integration to application development.
 * This project has always been intended to operate under the open/community source model. The Synthetic Data Platform open source
@@ -35,9 +37,9 @@ approach.
 
 # Key Content
 
-| Area                                                                                                   | 
-|--------------------------------------------------------------------------------------------------------|
-| <a href="./SDP-Subsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a>              |
-| <a href="./SDP-RepositoryLayout.md" target="_blank">The Synthetic Data Platform: Repository Layout</a> |
+| Area                                                                                        | 
+|---------------------------------------------------------------------------------------------|
+| <a href="./SDP-Subsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a>   |
+| <a href="./SDP-HowItWorks.md" target="_blank">The Synthetic Data Platform: How It Works</a> |
 
 

@@ -27,10 +27,16 @@ platform overall the leverage a data model and technology backend.
 
 The following section is intended to provide a simple way to find key areas of content about the Synthetic Data Platform.
 
-| Capability                                                                                | 
-|-------------------------------------------------------------------------------------------|
-| <a href="./SDP-Subsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a> |
+Please Note that as we are incorporating new capabilities and merging data models from other
+efforts into our platform the content is a work is progress (apart from the Synthetic Data Platform)
 
+| Capability                                                                   | 
+|------------------------------------------------------------------------------|
+| <a href="./SyntheticData.md" target="_blank">The Synthetic Data Platform</a> |
+| <a href="./AnonymizingData.md" target="_blank">Data Anonymization</a>        |
+| <a href="./DeidentifyingData.md" target="_blank">Data Deidentification</a>   |
+| <a href="./TaggingData.md" target="_blank">Data Tagging</a>                  |
+| <a href="./TokenizeData.md" target="_blank">Data Tokenization</a>            |
 
 ## Data Model
 The data model provides platforms with powerful capabilities that start with its extensibility 
