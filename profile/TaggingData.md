@@ -1,3 +1,5 @@
+<a href="./README.md" target="_blank">Main Page</a>
+
 # Tagging Data
 Tagging data is defined as: "the process of adding labels, or metadata, to data to help 
 identify, categorize, and potentially protect it."

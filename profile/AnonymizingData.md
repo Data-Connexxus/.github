@@ -1,3 +1,5 @@
+<a href="./README.md" target="_blank">Main Page</a>
+
 # Anonymizing Data
 Anonymizing data is defined by TechTarget as: "Data anonymization describes various techniques 
 to remove or block data containing personally identifiable information (PII). Data anonymization 

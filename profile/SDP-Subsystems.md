@@ -1,4 +1,4 @@
-<a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/README.md" target="_blank">Main Page</a>
+<a href="./README.md" target="_blank">Main Page</a>
 
 # Subsystems
 Within the data tier there are several specific subsystems that we have logically separated by a naming convention of <tier>_<capability>

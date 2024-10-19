@@ -1,3 +1,5 @@
+<a href="./README.md" target="_blank">Main Page</a>
+
 # SDP: Synthetic Data Platform
 Synthetic data is defined as: "any production data applicable to a given situation that is not obtained by direct
 measurement" according to the McGraw-Hill Dictionary of Scientific and Technical Terms, where Craig S. Mullins,
