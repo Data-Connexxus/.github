@@ -35,9 +35,9 @@ approach.
 
 # Key Content
 
-| Area                                                                                                                                                                | 
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="./SDP-Subsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a>                                                                           |
-| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/RepositoryLayout.md" target="_blank">The Synthetic Data Platform: Repository Layout</a> |
+| Area                                                                                                   | 
+|--------------------------------------------------------------------------------------------------------|
+| <a href="./SDP-Subsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a>              |
+| <a href="./SDP-RepositoryLayout.md" target="_blank">The Synthetic Data Platform: Repository Layout</a> |
 
 
