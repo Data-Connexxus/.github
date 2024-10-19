@@ -12,8 +12,12 @@ benefit if that data could closely resemble production data. Since data is the e
 cornerstone of companies’ success in the digital era, we wanted to focus more on enabling
 organizations around synthetic data.
 
-* As we prepare for the future needs of the platform we are also evaluating how to add in de-identification, anonymization and data crawling capabilities as well to
-  continuing rounding out the platform.
+As we prepare for the future needs of the platform we are also evaluating how to add in de-identification, anonymization and data crawling capabilities as well to
+continuing rounding out the platform.
+
+Here is a visual of how the platform is intended to work with your data and the high level capabiliti3es it provides:
+
+![Capabilities](Data-Jedi-Toolkit.png)
 
 # Platform 
 For simplicity's sake, we break down the platform into two core areas: data model and technology.
