@@ -32,3 +32,12 @@ approach.
   configure data structures from their attributes (9 are pre-configured). 
 * If you load the provided data scripts, you will have well over 100B data attributes to start using within an hour of loading
   platform.
+
+# Key Content
+
+| Area                                                                                                                                                                | 
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="./SDP-Subsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a>                                                                           |
+| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/RepositoryLayout.md" target="_blank">The Synthetic Data Platform: Repository Layout</a> |
+
+

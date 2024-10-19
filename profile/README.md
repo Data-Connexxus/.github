@@ -19,8 +19,18 @@ Here is a visual of how the platform is intended to work with your data and the 
 
 ![Capabilities](Data-Jedi-Toolkit.png)
 
-# Platform 
-For simplicity's sake, we break down the platform into two core areas: data model and technology.
+# Platform
+For simplicity's sake, we break down the platform into two core areas: data model and the 
+technology that supports the data model. As we have gone to this simplified perspective all
+the components shown in the visual are capabilities that are surfaced by settings that drive the
+platform overall the leverage a data model and technology backend.
+
+The following section is intended to provide a simple way to find key areas of content about the Synthetic Data Platform.
+
+| Capability                                                                                | 
+|-------------------------------------------------------------------------------------------|
+| <a href="./SDP-Subsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a> |
+
 
 ## Data Model
 The data model provides platforms with powerful capabilities that start with its extensibility 
@@ -66,14 +76,6 @@ settled on Python. While our work with the other technologies has been excellent
 gives us the best path forward to have a coomplete and amazing technology stack that can 
 be used for any need while also being an amazing data engineering, web, and analysis technology.
 
-# Key Content
-The following section is intended to provide a simple way to find key areas of content about the Synthetic Data Platform.
-
-| Area                                                                                                                                                                | 
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/PlatformSubsystems.md" target="_blank">The Synthetic Data Platform: Subsystems</a>      |
-| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/RepositoryLayout.md" target="_blank">The Synthetic Data Platform: Repository Layout</a> |
-| <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/HowItWorks.md" target="_blank">The Synthetic Data Platform: How It Works</a>            |
 
 *Enjoy and Happy Coding!!!*
 
