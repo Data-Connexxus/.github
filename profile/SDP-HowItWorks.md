@@ -1,3 +1,4 @@
+<a href="./SyntheticData.md" target="_blank">Synthetic Data Main Page</a></br>
 <a href="./README.md" target="_blank">Main Page</a>
 
 # The Synthetic Data Platform: How It Works
