@@ -5,16 +5,15 @@ Specific artifacts related to the platform's data tier
 
 | Area                 | Repository Location                                                                                            | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| DataTier DDLs      | [DataTier-DDLs](/DataTier-DDLs/blob/main/README.md) | 
-||https://github.com/DataJediToolbelt/DataTier-DDLs|
-| DataTier DataLoaders|https://github.com/SyntheticDataPlatform/DataTier-DataLoaders/blob/main/README.md|
+| DataTier DDLs      |https://github.com/DataJediToolbelt/DataTier-DDLs/blob/main/README.md | 
+| DataTier DataLoaders|https://github.com/DataJediToolbelt/DataTier-DataLoaders/blob/main/README.md|
 
 ## Development Assets
 Specific artifacts related to the platform's development assets provided
 
 | Area   | Repository Location                                                                                        | 
 |--------|--------------------------------------------------------------------------------------------------------|
-| Python | https://github.com/SyntheticDataPlatform/Python/blob/main/README.md | 
+| Python |https://github.com/DataJediToolbelt/Code-DataJediToolkit/blob/main/README.md | 
 
 # The Synthetic Data Platform Legacy Assets: Repository Layout
 The following code is legacy and not being maintained. The goal is that in late 2024 or early 2025 these repositories will
@@ -26,15 +25,15 @@ itself was completely refactored to help simplify it and provide greater extensi
 
 | Area                 | Repository Location                                                                                            | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| SpringBoot-APIs      |https://github.com/SyntheticDataPlatform/APIs-SpringBoot  |
-| Node APIs            |https://github.com/SyntheticDataPlatform/APIs-Node    |
-| Quarkus APIs         |https://github.com/SyntheticDataPlatform/APIs-Quarkus |
+| SpringBoot-APIs      |https://github.com/DataJediToolbelt/Code-DataJediToolkit/Legacy-SyntheticData-APIs-SpringBoot  |
+| Node APIs            |https://github.com/DataJediToolbelt/Code-DataJediToolkit/Legacy-SyntheticData-APIs-Node    |
+| Quarkus APIs         |https://github.com/DataJediToolbelt/Code-DataJediToolkit/Legacy-SyntheticData-APIs-Quarkus |
 
 ## User Interfaces - Legacy
 While there are projects listed, these are aspirational, as we need to refactor the APIs and reimagine the capabilities we want overall.
 
 | Area                 | Repository Location                                                                                           | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| REACTT UI            | Future - https://github.com/SyntheticDataPlatform/UIs-Web-REACT|
-| Vue UI               |https://github.com/SyntheticDataPlatform/UIs-Web-Vue|
+| REACTT UI            |https://github.com/DataJediToolbelt/Legacy-SyntheticData-UIs-Web-REACT|
+| Vue UI               |https://github.com/DataJediToolbelt/Legacy-SyntheticData-UIs-Web-Vue|
 
