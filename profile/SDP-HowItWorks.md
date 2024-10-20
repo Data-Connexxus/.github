@@ -64,7 +64,4 @@ The following data structures are implemented with the core platform.
 # Core Platform Activities - Configuring/Managing the Platform
 Understanding or awareness of key aspects of the data model is critical as they lay the groundwork for how you would use the platform.
 
-## Generating Data
-
-## Anonymizing Data
 
