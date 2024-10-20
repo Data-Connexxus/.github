@@ -14,7 +14,13 @@ Here is a visual about the platforms high level capabiliti3es it enables:
 
 ![Capabilities](Data-Jedi-Toolkit.png)
 
+# Community Basic Understandings
 
+* All assets operate under the open/community source model. The Synthetic Data Platform open source
+  licensing model is <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apache-2.0</a>.
+  Our model is not some "freemium" or offering-based model with versions and scaled capabilities.
+* We believe in the "powered by" model so we aim to help anyone incorporate our assets into their offerings.
+  
 # Platform
 Since we are brining so many capabilities to bear, a platform that supports and sustins these is critical. 
 For simplicity's sake, we break down the platform into two core areas: data model and the 
