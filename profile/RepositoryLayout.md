@@ -5,7 +5,7 @@ Specific artifacts related to the platform's data tier
 
 | Area                 | Repository Location                                                                                            | 
 |----------------------|------------------------------------------------------------------------------------------------------------|
-| DataTier DDLs      | [DataTier-DDLs](../../../DataTier-DDLs/blob/main/README.md) | 
+| DataTier DDLs      | [DataTier-DDLs](/DataTier-DDLs/blob/main/README.md) | 
 ||https://github.com/DataJediToolbelt/DataTier-DDLs|
 | DataTier DataLoaders|https://github.com/SyntheticDataPlatform/DataTier-DataLoaders/blob/main/README.md|
 
