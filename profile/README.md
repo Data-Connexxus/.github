@@ -36,26 +36,25 @@ efforts into our platform the content is a work is progress (apart from the Synt
 | <a href="./TokenizeData.md" target="_blank">Data Tokenization</a>            |
 
 ## Data Model
-The data model provides platforms with powerful capabilities that start with its extensibility 
-supplied through the data it provides. The Synthetic Data Platform is no different,  as almost all of 
-our core usage has been driven by directly accessing the data contained in the 
-platform's data model. Because of our heavy data usage, we have focused on the data model for years.
-With this focus we have substantially evolved our data tier mindset. 
+The initial focus as we built out the data model was around an extensible way to support 
+the Synthetic Data Platform and its needs. Because of our heavy data usage, we have 
+focused on the data model for years and how to continue to drive value and address business needs with it.
+Because of this focus the base of the data model provides a massive amount of extensible capabilities that we believe
+provide a consistent and extensible future. We are excited about enhancements to the data model as well to address specific
+needs for the new capabilities as well.
 
-We started with a traditional RDBMS-based focus and mindset and evolved towards a 
-more flexible and less constrained RDBMS-based data model. In late 2023, we removed the 
-very tight RDBMS mindset as it constrained our capabilities. We also 
-decided to focus on a limited core set of data technologies. As we advance, we only support 
-two RDBMS technologies (PostgreSQL and SQL Server), one EDW (SnowFlake) technology, and one computational platform (Spark/DataBricks). 
+Change of us with the data model has been a constant, we started with a traditional RDBMS-based focus and mindset and evolved towards a 
+more flexible and less constrained RDBMS-based data model. In late 2023, we removed the very tight RDBMS mindset as it constrained our capabilities. We also 
+decided to focus on a limited core set of data technologies: two RDBMS technologies (PostgreSQL and SQL Server), one EDW (SnowFlake) technology, 
+and one computational platform (Spark/DataBricks). 
 
-Now, we have a highly functional and very performant data model that is more computational 
+As we approach 2024 we have a highly functional and very performant data model that is more computational 
 than relational and contains billions of attributes in a very compact amount of storage, rough 
-Six hundred fifty megabytes (depending upon the specific technology used). While the focus of the data tier 
-has been moving to a computational model, a large amount of reference data
-will be needed to help the platform tag data according to specific usage that can meet business or industry 
-needs and usages. What drives the core design of the data model now is not primary-foreign 
-key data relationships, the platform's key subsystems, and how the data tier supports them. 
+Six hundred fifty megabytes (depending upon the specific technology used). What drives the core design of the data model now is not primary-foreign 
+key data relationships, the platform's key subsystems, and how the data tier supports their business needs while also providing enough reference data and
+data associations for the data to have relevant meaning.
 
+### Core Data Model Naming Convention: Tables
 While supporting a substantial amount of business use cases and needs, the data tier is elementary.
 All the table names follow a specific notation <core area>_<capability>. The platform currently 
 has five core areas:
@@ -68,8 +67,8 @@ has five core areas:
 - terms_<capability>: Any terminologies the platform might need to use depending upon the industry or general needs within this area.
 
 ## Technology
-With such a focus on the data tier, we were very distracted and needed to pay adequate respect to the technology tier for this 
-platform; we did not until 2024. Since the core users and contributors to our initial platform were 
+With such a focus on the data tier, we were very distracted and did not pay adequate respect to the technology tier for this 
+platform until 2024. Since the core users and contributors to our initial platform were 
 all data folks. So we did not do the technology layer around the data tier any justice. Whether it
 was using several technologies like SpringBoot, Node, or Quarkus, we were not committed to 
 technology powering our data model and its future. As we retooled and revamped the data tier, 
