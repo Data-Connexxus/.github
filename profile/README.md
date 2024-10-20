@@ -1,34 +1,31 @@
 # Welcome to the Data Jedi Toolkit GitHub site 👋
-This site represents the updated work that started in several separate GitHub organizations to accomplish various data needs. 
-The widest adoption (commitment to, implementation, and use) started in 2020 within [Project-Herophilus](https://github.com/Project-Herophilus/). 
-We have now moved this work into its organization to help us give it a long-term viable future as a series of free-standing reusable data assets. 
-We can focus on how to continue the great work done over the last several years by unique individuals and companies like Red Hat, IBM, Microsoft, and others.
-As we considered how to proceed, we wanted to continue helping the community of developers and data resources. 
-After lots of feedback and discussion, it was evident that having the various data capabilities unbounded by a specific industry and consolidated into
-one GitHub organization is the best long-term decision. We continue to focus and believe that <b>data is the asset</b>, a core belief of everything we have worked towards. 
+DataJediToolkit is the evolution of a series of data enablement assets that were started in several different Git Hub organizations with
+the widest adoption (commitment to, implementation, and use) started in 2020 within [Project-Herophilus](https://github.com/Project-Herophilus/). 
+The focus of having an open source community project is not only is it fulfilling its core mission but also does it need to evolve. It was clear that
+our focus of <b>data as an asset</b> not only resonated but it is needed now more than ever. To help ensure we provide value from a community perspective and
+also look at where we can continue to meet industries needs are shifting to a data toolkit will help us grow and continue to fulfill business and IT needs.
+This new focus will help us have better focus and provide a long-term viable future for a series of free-standing reusable data assets. We can focus on how to continue 
+the great work done over the last several years by unique individuals and companies like Red Hat, IBM, Microsoft, and others.
 
-An essential part we want to ensure is a focus on a wide variety of data enablement capabilities. Companies have focused on most aspects of development, from the tooling to developing the next generation of solutions to support their business needs and provide value. However, building great software to help today's modern needs requires data, in many cases, massive amounts of data. It would be a HUGE business and technical
-benefit if that data could closely resemble production data. Since data is the electricity that powers business and the
-cornerstone of companies’ success in the digital era, we wanted to focus more on enabling
-organizations around synthetic data.
+Driven by our belief in <b>data as an asset</b> and all the feedback we have received our focus continuing forward will be around a community based effort to focus on a wide 
+variety of data enablement capabilities. These capabilities are intended to be used in a variety of ways to enable data driven assets like AI, APIs, Applications, reports, visualizations and 
+more to be created/delivered or enhanced. Since data is the electricity that powers business and the cornerstone of companies’ success in the digital era, we are focused more on enabling
+data driven capabilities.
 
-As we prepare for the future needs of the platform we are also evaluating how to add in de-identification, anonymization and data crawling capabilities as well to
-continuing rounding out the platform.
-
-Here is a visual of how the platform is intended to work with your data and the high level capabiliti3es it provides:
+Here is a visual about the platforms high level capabiliti3es it enables:
 
 ![Capabilities](Data-Jedi-Toolkit.png)
 
 # Platform
+Since we are brining so many capabilities to bear, a platform that supports and sustins these is critical. 
 For simplicity's sake, we break down the platform into two core areas: data model and the 
 technology that supports the data model. As we have gone to this simplified perspective all
-the components shown in the visual are capabilities that are surfaced by settings that drive the
-platform overall the leverage a data model and technology backend.
+the components shown in the visual are capabilities that are surfaced by settings and data driven configration to enable simple or complex 
+needs to be addressed. 
 
-The following section is intended to provide a simple way to find key areas of content about the Synthetic Data Platform.
-
+<b>
 Please Note that as we are incorporating new capabilities and merging data models from other
-efforts into our platform the content is a work is progress (apart from the Synthetic Data Platform)
+efforts into our platform the content is a work is progress (apart from the Synthetic Data Platform)</b>
 
 | Capability                                                                   | 
 |------------------------------------------------------------------------------|
