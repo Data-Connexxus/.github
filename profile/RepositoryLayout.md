@@ -1,5 +1,8 @@
 <a href="https://github.com/SyntheticDataPlatform/.github/blob/main/profile/README.md" target="_blank">Main Page</a>
 
+# Repository Layout
+This page is where we intended to keep the details around specific respository details.
+
 ## Data Tier
 Specific artifacts related to the platform's data tier
 
