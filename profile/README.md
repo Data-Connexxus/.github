@@ -8,9 +8,7 @@ This new focus will help us have better focus and provide a long-term viable fut
 the great work done over the last several years by unique individuals and companies like Red Hat, IBM, Microsoft, and others.
 
 Driven by our belief in <b>data as an asset</b> and all the feedback we have received our focus continuing forward will be around a community based effort to focus on a wide 
-variety of data enablement capabilities. These capabilities are intended to be used in a variety of ways to enable data driven assets like AI, APIs, Applications, reports, visualizations and 
-more to be created/delivered or enhanced. Since data is the electricity that powers business and the cornerstone of companies’ success in the digital era, we are focused more on enabling
-data driven capabilities.
+variety of data enablement capabilities. These capabilities are intended to be used in a variety of ways to enable data driven assets like AI, APIs, Applications, reports, visualizations and more to be created/delivered or enhanced. Since data is the electricity that powers business and the cornerstone of companies’ success in the digital era, we are focused more on enabling data driven capabilities.
 
 Here is a visual about the platforms high level capabiliti3es it enables:
 
@@ -23,10 +21,9 @@ technology that supports the data model. As we have gone to this simplified pers
 the components shown in the visual are capabilities that are surfaced by settings and data driven configration to enable simple or complex 
 needs to be addressed. 
 
-<b>
-Please Note that as we are incorporating new capabilities and merging data models from other
+<b>Please Note that as we are incorporating new capabilities and merging data models from other
 efforts into our platform the content is a work is progress (apart from the Synthetic Data Platform)</b>
-
+<br>
 | Capability                                                                   | 
 |------------------------------------------------------------------------------|
 | <a href="./SyntheticData.md" target="_blank">The Synthetic Data Platform</a> |
@@ -69,15 +66,13 @@ has five core areas:
 ## Technology
 With such a focus on the data tier, we were very distracted and did not pay adequate respect to the technology tier for this 
 platform until 2024. Since the core users and contributors to our initial platform were 
-all data folks. So we did not do the technology layer around the data tier any justice. Whether it
-was using several technologies like SpringBoot, Node, or Quarkus, we were not committed to 
-technology powering our data model and its future. As we retooled and revamped the data tier, 
+all data folks. We focused on using several technologies like SpringBoot, Node, or Quarkus, and we were not committed to 
+technology providing us any substantial value aside from powering our data model. As we retooled and revamped the data tier, 
 it was clear we needed to focus on a technology to use to provide a variety of capabilities for 
-users who wanted any form of a development experience with the platform. In late 2023, we 
-settled on Python. While our work with the other technologies has been excellent, Python 
-gives us the best path forward to have a coomplete and amazing technology stack that can 
+users who wanted any form of a development experience with the platform. In mid 2024, we 
+settled on Python as our go forward technology. While our work with the other technologies has been excellent, Python 
+gives us the best path forward to have a complete and amazing technology stack that can 
 be used for any need while also being an amazing data engineering, web, and analysis technology.
-
 
 *Enjoy and Happy Coding!!!*
 
