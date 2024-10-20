@@ -14,6 +14,7 @@ Here is a visual about the platforms high level capabiliti3es it enables:
 
 ![Capabilities](Data-Jedi-Toolkit.png)
 
+
 # Platform
 Since we are brining so many capabilities to bear, a platform that supports and sustins these is critical. 
 For simplicity's sake, we break down the platform into two core areas: data model and the 
@@ -21,9 +22,12 @@ technology that supports the data model. As we have gone to this simplified pers
 the components shown in the visual are capabilities that are surfaced by settings and data driven configration to enable simple or complex 
 needs to be addressed. 
 
-<b>Please Note that as we are incorporating new capabilities and merging data models from other
+<b>Note: As we are incorporating new capabilities and merging data models from other
 efforts into our platform the content is a work is progress (apart from the Synthetic Data Platform)</b>
 <br>
+
+<div align="center">
+  
 | Capability                                                                   | 
 |------------------------------------------------------------------------------|
 | <a href="./SyntheticData.md" target="_blank">The Synthetic Data Platform</a> |
@@ -31,6 +35,7 @@ efforts into our platform the content is a work is progress (apart from the Synt
 | <a href="./DeidentifyingData.md" target="_blank">Data Deidentification</a>   |
 | <a href="./TaggingData.md" target="_blank">Data Tagging</a>                  |
 | <a href="./TokenizeData.md" target="_blank">Data Tokenization</a>            |
+</div>
 
 ## Data Model
 The initial focus as we built out the data model was around an extensible way to support 
