@@ -25,7 +25,7 @@ In addition to this there are numerous offerings available, from libraries to te
   or <a href="https://en.wikipedia.org/wiki/Personal_data" target="_blank">PII (In any other industry)</a>?
 * We focused on delivering some core basic RDBMS and EDW-level support. The data model and loaders are present for
   PostgreSQL, SQL Server, SnowFlake, and DataBricks/Apache Spark. Our most actively maintained platforms are PostgreSQL and SQL Server.
-* While we tried to build APIs, we needed more technology focus. As we entered mid-2023, we decided to focus on Python as 
+* While we tried to build APIs, we needed more technology focus. As we entered 2024, we decided to focus on Python as 
   the core technology we would leverage. Its powerful data capabilities make it the right decision.
 * The Synthetic Data Platform is built upon a simple concept of associated or tagged data; the data is associated/tagged with 
   organizations and applications. The platform uses the concept of data attributes (21 different data attributes as part of the 
