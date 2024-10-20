@@ -22,6 +22,8 @@ Here is a visual about the platforms high level capabiliti3es it enables:
 * We believe in the "powered by" model so we aim to help anyone incorporate our assets into their offerings.
   
 # Platform
+Feel free to checkout our [repository layout page](https://github.com/DataJediToolbelt/.github/blob/main/profile/RepositoryLayout.md).
+
 Since we are brining so many capabilities to bear, a platform that supports and sustins these is critical. 
 For simplicity's sake, we break down the platform into two core areas: data model and the 
 technology that supports the data model. As we have gone to this simplified perspective all
