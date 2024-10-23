@@ -1,5 +1,5 @@
 # Welcome to the Data Jedi Toolbelt GitHub site 👋
-DataJediToolkit is the evolution of a series of data enablement assets that were started in several different Git Hub organizations with
+DataJediToolbelt is the evolution of a series of data enablement assets that were started in several different Git Hub organizations with
 the widest adoption (commitment to, implementation, and use) started in 2020 within [Project-Herophilus](https://github.com/Project-Herophilus/). 
 The focus of having an open source community project is not only fulfilling its core mission but also that it needs to evolve. Clearly,
 our focus on <b>data as an asset</b> resonated and is needed now more than ever. To help ensure we provide value from a community perspective and
@@ -16,11 +16,12 @@ Here is a visual about the platform's high-level capabilities it enables:
 
 # Community Basic Understandings
 
-* All assets operate under the open/community source model. The Synthetic Data Platform open source
-  licensing model is <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apache-2.0</a>.
-  Our model is not some "freemium" or offering-based model with versions and scaled capabilities.
+* All assets operate under the open/community source model. All repositories are provided under open source
+  Apache-2 licensing model. Here is the <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apache-2.0</a> licensing
+  model.
+* Our model is not some "freemium" or offering-based model with versions and scaled capabilities.
 * We believe in the "powered by" model so we aim to help anyone incorporate our assets into their offerings.
-  
+
 # Platform
 Feel free to check out our [repository layout page](https://github.com/DataJediToolbelt/.github/blob/main/profile/RepositoryLayout.md) that
 is intended to provide some context to the numerous repositories we have in place. Since we are bringing so many capabilities to bear, a platform that supports and sustains these is critical.  For simplicity's sake, we break down the platform into two core areas: the data model and the 

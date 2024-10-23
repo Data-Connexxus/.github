@@ -14,9 +14,9 @@ Specific artifacts related to the platform's data tier
 ## Development Assets
 Specific artifacts related to the platform's development assets provided
 
-| Area   | Repository Location                                                                                        | 
-|--------|--------------------------------------------------------------------------------------------------------|
-| Python |https://github.com/DataJediToolbelt/Code-DataJediToolkit/blob/main/README.md | 
+| Area                        | Repository Location                                                                                        | 
+|-----------------------------|--------------------------------------------------------------------------------------------------------|
+| Python-Development Platform |https://github.com/DataJediToolbelt/Code-DataJediToolkit/blob/main/README.md | 
 
 # The Synthetic Data Platform Legacy Assets: Repository Layout
 The following code is legacy and not being maintained. The goal is that in late 2024 or early 2025 these repositories will
