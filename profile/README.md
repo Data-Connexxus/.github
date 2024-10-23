@@ -35,13 +35,12 @@ efforts into our platform, the content is a work in progress (apart from the Syn
 
 <div align="center">
   
-| Capability                                                                   | 
-|------------------------------------------------------------------------------|
-| <a href="./SyntheticData.md" target="_blank">The Synthetic Data Platform</a> |
-| <a href="./AnonymizingData.md" target="_blank">Data Anonymization</a>        |
-| <a href="./DeidentifyingData.md" target="_blank">Data Deidentification</a>   |
-| <a href="./TaggingData.md" target="_blank">Data Tagging</a>                  |
-| <a href="./TokenizeData.md" target="_blank">Data Tokenization</a>            |
+| Capability                                                                                                  | 
+|-------------------------------------------------------------------------------------------------------------|
+| <a href="./Data-SyntheticData.md" target="_blank">The Synthetic Data Platform</a>                           |
+| <a href="./Data-AnonymizingDeidentification.md" target="_blank">Data Anonymization or De-Identification</a> |
+| <a href="./Data-Tagging.md" target="_blank">Data Tagging</a>                                                |
+| <a href="./Data-Tokenization.md" target="_blank">Data Tokenization</a>                                      |
 </div>
 
 ## Data Model
