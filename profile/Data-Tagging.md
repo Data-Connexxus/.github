@@ -5,11 +5,13 @@ Tagging data is defined as: "the process of adding labels, or metadata, to data 
 identify, categorize, and potentially protect it." This is becoming a very important field within various areas of data
 analysis and architecture. Here is [[one sites](https://blogs.sas.com/content/datamanagement/2020/01/09/4-data-tagging-best-practices/) take on data tagging.
 
+# Our Tagging Guiding Principles 
+- Tokenization is involved in the tagging process to try and ensure we mitigate as much original data as we can.
+- Tagging is configurable and tunable. Our initial work will be focused on creating the basic tagging capabilities and moving into more advanced
+  rules based processes.
+-  Any data that is tagged will ALWAYS be associated with applications and organizations and source as defined within the platform. This is
+intended to support consistency and extensibility for business or user needs.
 
-* It is a growing area of provided offerings. Most cloud providers and cloud centric data companies have offerings in this space now. 
-In addition to this there are numerous offerings available, from libraries to technology platforms that range from open source to freemium 
-  (Some are free, and some are paid within technologies). Our goal and intent is to be a "powered by" technology platform that can be molded 
-  like clay, for benefit groups from testing to data integration to application development.
 
 # Key Content
 
