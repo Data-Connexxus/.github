@@ -1,4 +1,4 @@
-# Welcome to the Data Jedi Toolbelt GitHub site 👋
+`# Welcome to the Data Jedi Toolbelt GitHub site 👋
 DataJediToolbelt is the evolution of a series of data enablement assets that were started in several different Git Hub organizations with
 the widest adoption (commitment to, implementation, and use) started in 2020 within [Project-Herophilus](https://github.com/Project-Herophilus/). 
 The focus of having an open source community project is not only fulfilling its core mission but also that it needs to evolve. Clearly,
@@ -8,23 +8,28 @@ This new focus will help us focus better and provide a long-term viable future f
 the great work has been done over the last several years by unique individuals and companies like Red Hat, IBM, Microsoft, and others.
 
 Driven by our belief in <b>data as an asset</b> and all the feedback we have received, our focus will be on a community-based effort to focus on a wide 
-variety of data enablement capabilities. These capabilities are intended to be used in a variety of ways to enable data-driven assets like AI, APIs, Applications, reports, visualizations, and more to be created/delivered or enhanced. Since data is the electricity that powers businesses and the cornerstone of companies’ success in the digital era, we are focused more on enabling data-driven capabilities.
+variety of data enablement capabilities. These capabilities are intended to be used in a variety of ways to enable data-driven assets like AI, APIs, Applications, 
+reports, visualizations, and more to be created/delivered or enhanced. Since data is the electricity that powers businesses and the cornerstone of companies’ 
+success in the digital era, we are focused more on enabling data-driven capabilities.
 
 Here is a visual about the platform's high-level capabilities it enables:
 
 ![Capabilities](Data-Jedi-Toolbelt.png)
 
-# Community Basic Understandings
+# Community Guiding Principles
 
+* <b> Data is the Asset </b>
 * All assets operate under the open/community source model. All repositories are provided under open source
   Apache-2 licensing model. Here is the <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apache-2.0</a> licensing
   model.
-* Our model is not some "freemium" or offering-based model with versions and scaled capabilities.
-* We believe in the "powered by" model so we aim to help anyone incorporate our assets into their offerings.
+* Our efforts are not built around some "freemium" or offering-based model with versions and scaled capabilities.
+* We believe in the "powered by" model so we aim to help anyone incorporate our assets into their organizations or offerings.
+* The platform is driven by the data tier and supported by technology.
 
 # Platform
 Feel free to check out our [repository layout page](https://github.com/DataJediToolbelt/.github/blob/main/profile/RepositoryLayout.md) that
-is intended to provide some context to the numerous repositories we have in place. Since we are bringing so many capabilities to bear, a platform that supports and sustains these is critical.  For simplicity's sake, we break down the platform into two core areas: the data model and the 
+is intended to provide some context to the numerous repositories we have in place. Since we are bringing so many capabilities to bear, a platform that supports 
+and sustains these is critical.  For simplicity's sake, we break down the platform into two core areas: the data model and the 
 technology that supports the data model. As we have gone to this simplified perspective, all
 the components shown in the visual are capabilities surfaced by settings and data-driven configuration to address simple or complex
 needs. 
@@ -67,8 +72,6 @@ While supporting a substantial amount of business use cases and needs, the data 
 All the table names follow a specific notation <core area>_<capability>. The platform currently 
 has five core areas:
 - datamodel_<capability>: deals with the data model; we have all our data model documentation and details in these tables.
-- data_<capability>: this area will be implemented as we absorb other projects and efforts into this platform to ensure consistency
-  and capabilities that we can deliver to continue the platform's expansive capabilities.
 - datatier_<capability>: Anything the platform provides is within this area.
 - platform_<capability>: All the settings, capabilities, and extensibility the platform can address are maintained within this area.
 - refdata_<capability>: The platform can tag data in all ways that exist within this area.
