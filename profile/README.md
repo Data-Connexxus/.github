@@ -12,7 +12,7 @@ variety of data enablement capabilities. These capabilities are intended to be u
 
 Here is a visual about the platform's high-level capabilities it enables:
 
-![Capabilities](Data-Jedi-Toolkit.png)
+![Capabilities](Data-Jedi-Toolbelt.png)
 
 # Community Basic Understandings
 
