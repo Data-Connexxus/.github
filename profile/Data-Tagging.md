@@ -11,6 +11,8 @@ analysis and architecture. Here is [[one sites](https://blogs.sas.com/content/da
   rules based processes.
 -  Any data that is tagged will ALWAYS be associated with applications and organizations and source as defined within the platform. This is
 intended to support consistency and extensibility for business or user needs.
+- We have enhanced our data model to support the storage of what reference data was used 
+and the tags it built. *We will only store the bare minimum needed to ensure that we can address questions or concerns.*
 
 
 # Key Content
