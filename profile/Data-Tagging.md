@@ -2,9 +2,10 @@
 
 # Tagging Data
 Tagging data is defined as: "the process of adding labels, or metadata, to data to help 
-identify, categorize, and potentially protect it."
+identify, categorize, and potentially protect it." This is becoming a very important field within various areas of data
+analysis and architecture. Here is [one sites](https://privacy108.com.au/insights/data-tagging-for-security/) take on data tagging.
 
-https://privacy108.com.au/insights/data-tagging-for-security/
+
 
 * It is a growing area of provided offerings. Most cloud providers and cloud centric data companies have offerings in this space now. 
 In addition to this there are numerous offerings available, from libraries to technology platforms that range from open source to freemium 
