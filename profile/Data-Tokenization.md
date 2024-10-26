@@ -13,7 +13,7 @@ versus just some code that we potentially leverage.
 - Our efforts are focused around providing a consistent means to process data and produce a consistent result.
 - Tokenization is configurable and tunable. Our initial work will be focused on creating SHA512 tokens, which are 128 bytes each.
 in future releases in 2025 e plan on enabling users to determine the cryptography level they wish to implement and use.
--  Any data that is tokenized will ALWAYS be associated with applications and organizations as defined within the platform. This is
+-  Any data that is tokenized will ALWAYS be associated with applications and organizations and sources as defined within the platform. This is
 intended to support consistency and extensibility for business or user needs.
 - These capabilities can be used from the platform as an API or part of the application capabilities.
 - We have enhanced our data model to support the storage of what reference data was used 
