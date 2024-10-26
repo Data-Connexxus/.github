@@ -1,12 +1,13 @@
 <a href="./README.md" target="_blank">Main Page</a>
 
 # Background
-De-identification and anonymization are becoming more and more critical for organizations. Because 
-healthcare is a highly regulated industry the government has defined a specific series of
-[standards](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html) that
-provide direction and specific direction.  
+De-identification and anonymization are becoming more and more critical for organizations. Data is what powers organizations and 
+whether your are working in highly regulated industries or not, it is critical to protect PII(Personally Identifiable Information) and
+whatever other specific data needs your regulated industry might have. For those in healthcare, here is a specific 
+[standard](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html) that
+provide direction and specific details.
 
-# Key Terms and Definitions
+## Key Terms and Definitions
 The key terminologies and definitions for the platform are:
 
 - Application: Source application where data is provided 
@@ -20,10 +21,10 @@ presented to the platform for value creation.
 - Cross Data Mappings: This is the mapping from source fields to target fields and needs to include the synthetic data attributes 
 involved when the data is mapped.
 
-# Key Processes
+## Key Processes
 The following are key processes.
 
-* Person Identities: Creation of a Unique Idenifier for Input Data
+* Identities: Creation of a Unique Idenifier for Input Data
 The first tier component in the Defianz platform is to create a unique identificatier for any persons data passing through it.
 This process deals with how the platform identifies data records presented to it. 
   * The exposed API endpoint will take the following specific implementataion defined attributes: application, organization and 
@@ -45,8 +46,9 @@ This process deals with how the platform identifies data records presented to it
     and persist the ids of what it retrieved for future consistency and reuse. If there is data associated the API simply 
     returns the data
 
+
 # Deidentifying Data
-Deidentifying data, sometimes called masking,  is defined by Immuta as: "Data de-identification is a 
+Deidentifying data, sometimes called masking, is defined by Immuta as: "Data de-identification is a 
 form of dynamic data masking that refers to breaking the link between data and the individual 
 with whom the data is initially associated. Essentially, this requires removing or transforming 
 personal identifiers. Once personal identifiers are removed or transformed using the data 
