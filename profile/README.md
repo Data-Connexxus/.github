@@ -1,4 +1,4 @@
-`# Welcome to the Data Jedi Toolbelt GitHub site 👋
+# Welcome to the Data Jedi Toolbelt GitHub site 👋
 DataJediToolbelt is the evolution of a series of data enablement assets that were started in several different Git Hub organizations with
 the widest adoption (commitment to, implementation, and use) started in 2020 within [Project-Herophilus](https://github.com/Project-Herophilus/). 
 The focus of having an open source community project is not only fulfilling its core mission but also that it needs to evolve. Clearly,
