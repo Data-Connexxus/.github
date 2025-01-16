@@ -1,11 +1,11 @@
 # Welcome to the Data Jedi Toolbelt GitHub site 👋
-DataJediToolbelt is the evolution of a series of data enablement assets that were started in several different Git Hub organizations with
-the widest adoption (commitment to, implementation, and use) started in 2020 within [Project-Herophilus](https://github.com/Project-Herophilus/). 
-The focus of having an open source community project is not only fulfilling its core mission but also that it needs to evolve. Clearly,
-our focus on <b>data as an asset</b> resonated and is needed now more than ever. To help ensure we provide value from a community perspective and
-also look at where we can continue to meet the industry's needs, shifting to a data toolkit will help us grow and continue to fulfill business and IT needs.
-This new focus will help us focus better and provide a long-term viable future for a series of free-standing reusable data assets. We can focus on how to continue 
-the great work has been done over the last several years by unique individuals and companies like Red Hat, IBM, Microsoft, and others.
+DataJediToolbelt is the evolution of a series of data enablement assets that were started in several different Git Hub organizations. The 
+widest adoption (commitment to, implementation, and use) started in 2020 within [Project-Herophilus](https://github.com/Project-Herophilus/). 
+With this project our focus remains <b>data as an asset</b>. Our belief is that shifting this 
+and several other project to its own Git Hub repository and community will help 
+us continue to focus on fulfilling business and IT needs. Our goal is to continue 
+the great work has been done over the last several years by unique individuals 
+and companies like Red Hat, IBM, Microsoft, and others.
 
 Driven by our belief in <b>data as an asset</b> and all the feedback we have received, our focus will be on a community-based effort to focus on a wide 
 variety of data enablement capabilities. These capabilities are intended to be used in a variety of ways to enable data-driven assets like AI, APIs, Applications, 
@@ -27,45 +27,48 @@ Here is a visual about the platform's high-level capabilities it enables:
 * The platform is driven by the data tier and supported by technology.
 
 # Platform
-Feel free to check out our [repository layout page](https://github.com/DataJediToolbelt/.github/blob/main/profile/RepositoryLayout.md) that
-is intended to provide some context to the numerous repositories we have in place. Since we are bringing so many capabilities to bear, a platform that supports 
-and sustains these is critical.  For simplicity's sake, we break down the platform into two core areas: the data model and the 
-technology that supports the data model. As we have gone to this simplified perspective, all
-the components shown in the visual are capabilities surfaced by settings and data-driven configuration to address simple or complex
-needs. 
+Feel free to check out our [repository layout page](https://github.com/DataJediToolbelt/.github/blob/main/profile/RepositoryLayout.md), it
+is intended to help navigate the numerous repositories we have in place. We continue to work
+on how we deliver so many capabilities in a simplified manner. We believe that a platform 
+approach that supports and sustains these efforts is critical.  To help us try and simplify 
+things we break down the platform into two core areas: the data model and the 
+technology that supports the data model. 
 
-<b>Note: As we are incorporating new capabilities and merging data models from other
-efforts into our platform, the content is a work in progress (apart from the Synthetic Data Platform)</b>
-<br>
+Here is a list of the data capabilities we are continuing to work to enable:
 
-<div align="center">
-  
-| Capability                                                                                                  | 
-|-------------------------------------------------------------------------------------------------------------|
-| <a href="./Data-SyntheticData.md" target="_blank">The Synthetic Data Platform</a>                           |
-| <a href="./Data-AnonymizingDeidentification.md" target="_blank">Data Anonymization or De-Identification</a> |
-| <a href="./Data-Tagging.md" target="_blank">Data Tagging</a>                                                |
-| <a href="./Data-Tokenization.md" target="_blank">Data Tokenization</a>                                      |
-</div>
++ Data Tokenization
++ The Synthetic Data Platform
++ Data Anonymization
++ Data Tokenization
++ Data Tagging
+
+For more details and specifics we have moved these pages into our Python code repository located
+[here](https://github.com/DataJediToolbelt/Code-Platform).
 
 ## Data Model
-As we built out the data model, the initial focus was on an extensible way to support 
-the Synthetic Data Platform and its needs. Because of our heavy data usage, we have 
-focused on the data model for years and how to continue to drive value and address business needs with it.
-Because of this focus, the base of the data model provides a massive amount of extensible capabilities that 
-provide a consistent and extensible future. We are excited about enhancements to the data model and addressing specific
-needs for the new capabilities.
+The journey in our direction has been so amazing to help and be involved in. Change in the 
+data model space for the communities we lead has been a constant and an incorrect approach.
+In late 2023, we removed the tight RDBMS mindset and highly complex datamodel 
+to a more simplified data model. Our next step was to move from generic support 
+to supporting two RDBMS technologies (PostgreSQL and SQL Server).In late 2024 we also
+added SQLite support, SQLite is added to help enable the platform to centralize settings,
+simplify error handling and auditing and provide a quikcly implementable way to see the platform
+capabilities.
 
-Change us with the data model has been a constant; we started with a traditional RDBMS-based focus and mindset and evolved towards a 
-more flexible and less constrained RDBMS-based data model. In late 2023, we removed the tight RDBMS mindset as it constrained our capabilities. We also 
-decided to focus on a limited core set of data technologies: two RDBMS technologies (PostgreSQL and SQL Server), one EDW (SnowFlake) technology, 
-and one computational platform (Spark/DataBricks). 
+Through 2023 for all the capabilities we had there were not only in seperate repositories but also
+included seperate data models. Because of this we effectively could not use multiple 
+capabilities together without a lot of work that involved in most cases multiple database 
+backends and different front end enabling technologies (if front end capabilities existed). 
+Early in 2024 we started focusing on the overall capabilities we wanted to provide overall. 
+Once we felt we had a core set of capabilities we then started work towards consolidating 
+the specific capabilities individual datamodels into one. With this new focus, the base of 
+the data model provides a massive amount of extensible capabilities for the future.
 
-As we approached 2024, we have a highly functional and very performant data model that is more computational 
-than relational and contains billions of attributes in a very compact amount of storage, rough 
-Six hundred fifty megabytes (depending upon the specific technology used). What drives the core design of the data model now is not primary-foreign 
-key data relationships, the platform's critical subsystems, and how the data tier supports their business needs while also providing enough reference data and
-data associations for the data to have relevant meaning.
+As we started 2025, we now have a consolidated highly functional and very performant data 
+model that is relational based and computationally focused. The data model has all the 
+capabilities listed above while containing billions of attributes in a very compact amount of 
+storage. The data platform, depending upon the database technology is compact in size, less
+than one gigabyte. 
 
 ### Core Data Model Naming Convention: Tables
 While supporting a substantial amount of business use cases and needs, the data tier is elementary.
@@ -75,7 +78,6 @@ has five core areas:
 - datatier_<capability>: Anything the platform provides is within this area.
 - platform_<capability>: All the settings, capabilities, and extensibility the platform can address are maintained within this area.
 - refdata_<capability>: The platform can tag data in all ways that exist within this area.
-- terms_<capability>: Any terminologies the platform might need to use depending upon the industry or general needs within this area.
 
 ## Technology
 With such a focus on the data tier, we were very distracted and did not pay adequate respect to the technology tier for this 
