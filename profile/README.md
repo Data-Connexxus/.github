@@ -1,4 +1,4 @@
-# Welcome to the Data Jedi Toolbelt GitHub site 👋
+# Welcome to the Data-Connexxus GitHub site 👋
 DataJediToolbelt is the evolution of a series of data enablement assets that were started in several different Git Hub organizations. The 
 widest adoption (commitment to, implementation, and use) started in 2020 within [Project-Herophilus](https://github.com/Project-Herophilus/). 
 With this project our focus remains <b>data as an asset</b>. Our belief is that shifting this 
@@ -27,7 +27,7 @@ Here is a visual about the platform's high-level capabilities it enables:
 * The platform is driven by the data tier and supported by technology.
 
 # Platform
-Feel free to check out our [repository layout page](https://github.com/DataJediToolbelt/.github/blob/main/profile/RepositoryLayout.md), it
+Feel free to check out our [repository layout page](https://github.com/Data-Connexxus/.github/blob/main/profile/RepositoryLayout.md), it
 is intended to help navigate the numerous repositories we have in place. We continue to work
 on how we deliver so many capabilities in a simplified manner. We believe that a platform 
 approach that supports and sustains these efforts is critical.  To help us try and simplify 
@@ -43,7 +43,7 @@ Here is a list of the data capabilities we are continuing to work to enable:
 + Data Tagging
 
 For more details and specifics we have moved these pages into our Python code repository located
-[here](https://github.com/DataJediToolbelt/Code-Platform).
+[here](https://github.com/Data-Connexxus/Code-Platform).
 
 ## Data Model
 The journey in our direction has been so amazing to help and be involved in. Change in the 
